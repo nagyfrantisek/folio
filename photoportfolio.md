@@ -6,10 +6,10 @@ permalink: /photoportfolio/
 
 
 {% for image in site.static_files %}
-<!--
+
     {% if image.path contains 'photoportfolio' && '480.webp' %}
 
--->
+
 <div class="project">
     <div class= "thumbnail">
         <a href="{{ site.baseurl }}{{ image.path }}">
@@ -18,9 +18,9 @@ permalink: /photoportfolio/
     </div>
 </div>
 
-<!--
+
     {% endif %}
--->
+
 {% endfor %}
 
 
