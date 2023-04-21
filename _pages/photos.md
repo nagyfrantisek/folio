@@ -5,7 +5,7 @@ permalink: /photos/
 description: A growing collection of your cool photos.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [fun]
 horizontal: false
 ---
 
