@@ -9,7 +9,7 @@ last_name: Nagy
 email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   If you have the right attitude, interesting problems will find you.
-footer_text: #
+footer_text: If you have the right attitude, interesting problems will find you. #
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
