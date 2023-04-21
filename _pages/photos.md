@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <!-- pages/photos.md -->
-<div class="photos">
+<div class="projects">
 {%- if site.enable_photo_categories and page.display_categories %}
   <!-- Display categorized photos -->
   {%- for category in page.display_categories %}
