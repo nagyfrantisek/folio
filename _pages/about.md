@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about
 subtitle: If you have the right attitude, interesting problems will find you.
 
 profile:
