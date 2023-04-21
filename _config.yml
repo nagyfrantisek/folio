@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Frantisek
 middle_name: #
 last_name: Nagy
-email: you@example.com
+email: hello@n4.sk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   If you have the right attitude, interesting problems will find you.
 footer_text: If you have the right attitude, interesting problems will find you. #
@@ -71,7 +71,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: nagyfrantisek # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: mastodon.social/@frantiseknagy # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
@@ -96,7 +96,7 @@ spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
-facebook_id: # your facebook id
+facebook_id: nfrantisek # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
@@ -356,7 +356,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            false   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
