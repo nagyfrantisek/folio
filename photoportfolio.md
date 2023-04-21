@@ -16,13 +16,12 @@ permalink: /photoportfolio/
 <div class="grid-item">
   <a href="{{ site.baseurl }}{{ image.path }}">
       <div class="card hoverable">
-<figure>
+          {%- if project.img %}
+        {%- include figure.html
+          path=project.img
+          alt="project thumbnail" -%}
+        {%- endif %}
 
-  <picture>
-    <img class="thumbnail" src="{{ site.baseurl }}{{ image.path | replace:'.jpg','-480.webp'}}" />
-  </picture>
-
-</figure>
       </div>
     </a>
 </div>
