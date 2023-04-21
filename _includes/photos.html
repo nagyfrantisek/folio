@@ -12,25 +12,6 @@
           path=photo.img
           alt="photo thumbnail" -%}
         {%- endif %}
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ photo.title }}</h2>
-          <p class="card-text">{{ photo.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {%- if photo.github -%}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ photo.github }}"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-              {%- if photo.github_stars -%}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ photo.github_stars }}-stars"></span>
-              </span>
-              {%- endif %}
-            </div>
-            {%- endif %}
-          </div>
-        </div>
       </div>
     </a>
 </div>
