@@ -16,9 +16,9 @@ permalink: /photoportfolio/
 <div class="grid-item">
   <a href="{{ site.baseurl }}{{ image.path }}">
       <div class="card hoverable">
-          {%- if project.img %}
+          {%- if photoportfolio.img %}
         {%- include figure.html
-          path=project.img
+          path=photoportfolio.img
           alt="project thumbnail" -%}
         {%- endif %}
 
