@@ -4,7 +4,7 @@ title: photo 1
 description: a photo with a background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: fun
 ---
 
 Every photo has a beautiful feature showcase page.
