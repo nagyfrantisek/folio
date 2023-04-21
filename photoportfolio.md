@@ -7,7 +7,9 @@ permalink: /photoportfolio/
 
 {% for image in site.static_files %}
 
-    {% if image.path !contains '.webp' %}
+{% if image.path contains '.webp %}
+{% else %}
+    {% if image.path contains 'photoportfolio' %}
 
 
 <div class="project">
