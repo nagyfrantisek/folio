@@ -12,13 +12,23 @@ permalink: /photoportfolio/
     {% if image.path contains 'photoportfolio' %}
 
 
-<div class="project">
-    <div class= "thumbnail">
-        <a href="{{ site.baseurl }}{{ image.path }}">
-            <img class="thumbnail" src="{{ site.baseurl }}{{ image.path | replace:'.jpg','-480.webp'}}" />
-        </a>
-    </div>
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="{{ site.baseurl }}{{ image.path }}">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    <img class="thumbnail" src="{{ site.baseurl }}{{ image.path | replace:'.jpg','-480.webp'}}" />
+  </picture>
+
+</figure>
+      </div>
+    </a>
 </div>
+
+
+
 
 
     {% endif %}
