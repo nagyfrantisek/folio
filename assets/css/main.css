@@ -648,6 +648,10 @@ figure.highlight {
   margin: 0 0 0rem;
 }
 
+figure {
+  margin: 0 !important;
+}
+
 pre {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
