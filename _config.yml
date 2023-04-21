@@ -173,6 +173,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  photos:
+    output: true
+    permalink: /photos/:path/
 
 news:
   enabled: true
