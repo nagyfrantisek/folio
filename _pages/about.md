@@ -20,4 +20,4 @@ I'm a father and teacher with a passion for technology. I've been teaching for o
 
 In my current role as a teacher, I've developed a reputation for being patient, creative, and innovative. I'm always looking for new ways to engage my students and make learning fun. My passion for technology has led me to develop several innovative teaching methods that have been adopted by other teachers in the school.
 
-When I'm not teaching or creating music, I can often be found tinkering with my 3D printer or working on coding projects. I'm always eager to learn new things and am constantly seeking out new challenges.
+When I'm not teaching or coding, I can often be found tinkering with my 3D printer or working on coding projects. I'm always eager to learn new things and am constantly seeking out new challenges.
