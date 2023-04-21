@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: If you have the right attitude, interesting problems will find you.
 
 profile:
   align: right
@@ -15,7 +15,6 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-
 
 I'm a father and teacher with a passion for technology. I've been teaching for over 10 years and have experience teaching students of all ages. I'm an avid 3D printing enthusiast and enjoy listening to electronic music in my free time. With a background in coding, I'm always looking for new ways to incorporate technology into my teaching and hobbies.
 
