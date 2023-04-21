@@ -22,7 +22,7 @@ permalink: /photoportfolio/
 
 
     {% endif %}
-
+{% endif %}
 {% endfor %}
 
 
