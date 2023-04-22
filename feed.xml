@@ -1,9 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://n4.sk/folio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://n4.sk/folio/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-22T11:44:52+00:00</updated><id>https://n4.sk/folio/feed.xml</id><title type="html">blank</title><subtitle>If you have the right attitude, interesting problems will find you.
-</subtitle><entry><title type="html">Circles iPhone wallpaper</title><link href="https://n4.sk/folio/blog/2023/circles-iphone-wallpaper/" rel="alternate" type="text/html" title="Circles iPhone wallpaper" /><published>2023-04-08T17:35:00+00:00</published><updated>2023-04-08T17:35:00+00:00</updated><id>https://n4.sk/folio/blog/2023/circles-iphone-wallpaper</id><content type="html" xml:base="https://n4.sk/folio/blog/2023/circles-iphone-wallpaper/"><![CDATA[<h2 id="circles-iphone-wallpaper">Circles iPhone wallpaper</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://n4.sk/folio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://n4.sk/folio/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-22T11:51:09+00:00</updated><id>https://n4.sk/folio/feed.xml</id><title type="html">blank</title><subtitle>If you have the right attitude, interesting problems will find you.
+</subtitle><entry><title type="html">Circles iPhone wallpaper</title><link href="https://n4.sk/folio/blog/2023/circles-iphone-wallpaper/" rel="alternate" type="text/html" title="Circles iPhone wallpaper" /><published>2023-04-08T17:35:00+00:00</published><updated>2023-04-08T17:35:00+00:00</updated><id>https://n4.sk/folio/blog/2023/circles-iphone-wallpaper</id><content type="html" xml:base="https://n4.sk/folio/blog/2023/circles-iphone-wallpaper/"><![CDATA[<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
-<p><img src="assets/img/circles_wallpaper.png" alt="Circles" /></p>
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/folio/assets/img/circles_wallpaper-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/folio/assets/img/circles_wallpaper-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/folio/assets/img/circles_wallpaper-1400.webp" />
+    
 
-<p><a href="assets/img/circles_wallpaper.zip">Download</a></p>]]></content><author><name></name></author><category term="wallpaper" /><category term="wallpaper" /><category term="iphone" /><summary type="html"><![CDATA[Circles iPhone wallpaper]]></summary></entry><entry><title type="html">Reverse Mouse Wheel scroll</title><link href="https://n4.sk/folio/blog/2023/reverse-mouse-wheel-scroll/" rel="alternate" type="text/html" title="Reverse Mouse Wheel scroll" /><published>2023-03-15T08:45:00+00:00</published><updated>2023-03-15T08:45:00+00:00</updated><id>https://n4.sk/folio/blog/2023/reverse-mouse-wheel-scroll</id><content type="html" xml:base="https://n4.sk/folio/blog/2023/reverse-mouse-wheel-scroll/"><![CDATA[<h2 id="reverse-mouse-wheel-scroll">Reverse Mouse Wheel scroll</h2>
+    <!-- Fallback to the original file -->
+    <img src="/folio/assets/img/circles_wallpaper.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Circles" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p><a href="/assets/img/circles_wallpaper.zip">Download</a></p>]]></content><author><name></name></author><category term="wallpaper" /><category term="wallpaper" /><category term="iphone" /><summary type="html"><![CDATA[Circles iPhone wallpaper]]></summary></entry><entry><title type="html">Reverse Mouse Wheel scroll</title><link href="https://n4.sk/folio/blog/2023/reverse-mouse-wheel-scroll/" rel="alternate" type="text/html" title="Reverse Mouse Wheel scroll" /><published>2023-03-15T08:45:00+00:00</published><updated>2023-03-15T08:45:00+00:00</updated><id>https://n4.sk/folio/blog/2023/reverse-mouse-wheel-scroll</id><content type="html" xml:base="https://n4.sk/folio/blog/2023/reverse-mouse-wheel-scroll/"><![CDATA[<h2 id="reverse-mouse-wheel-scroll">Reverse Mouse Wheel scroll</h2>
 
 <p>Open Windows PowerShell in Administrator Mode an paste:</p>
 
