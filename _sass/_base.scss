@@ -862,8 +862,14 @@ pre {
   }
 }
 
-.photo-thumb {
-  object-fit: cover;
-  width: 230px;
-  height: 230px;
-}
+// Photos
+
+.photos {
+
+    .row {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }

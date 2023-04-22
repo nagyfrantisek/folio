@@ -10,10 +10,10 @@ horizontal: false
 ---
 
 <!-- pages/photos.md -->
-<div class="projects">
+<div class="projects photos">
 
 <!-- Display photos without categories -->
-  {%- assign sorted_photos = site.photos | sort: "importance" -%}
+  {%- assign sorted_photos = site.photos | sort: "date" -%}
   <!-- Generate cards for each photo -->
   <div class="container">
 
