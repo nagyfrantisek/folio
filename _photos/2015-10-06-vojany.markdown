@@ -1,0 +1,10 @@
+---
+layout: page
+title: Vojany
+img: assets/img/thumb/vojany.jpg
+description: Vojany Power Station (Elektrárne Vojany)
+---
+
+![Vojany](assets/img/photo/vojany.jpg)
+
+Vojany Power Station (Elektrárne Vojany)

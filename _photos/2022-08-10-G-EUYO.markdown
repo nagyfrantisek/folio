@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Airbus A320"
+date:   2022-08-10 15:56:34
+preview: /assets/thumb/G-EUYO.jpg
+---
+
+![Airbus A320](/assets/img/G-EUYO.jpg)
+
+Airbus A320 - G-EUYO - Airline British Airways
