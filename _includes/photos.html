@@ -9,7 +9,7 @@
     <a href="{{ photo.url | relative_url }}">
       {%- endif %}
         {%- if photo.img %}
-        {%- include zfigure.html
+        {%- include figure.html
           path=photo.img
           alt="photo thumbnail" -%}
         {%- endif %}
