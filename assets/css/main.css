@@ -780,10 +780,11 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
   opacity: 1;
 }
 
-.photo-thumb {
-  object-fit: cover;
-  width: 230px;
-  height: 230px;
+.photos .row {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /*******************************************************************************
