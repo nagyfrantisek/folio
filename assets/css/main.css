@@ -780,9 +780,7 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
   opacity: 1;
 }
 
-.photos .row {
-  display: flex;
-  align-items: center;
+.photos .col {
   margin-bottom: 30px;
 }
 
