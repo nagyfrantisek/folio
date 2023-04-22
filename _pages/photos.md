@@ -13,11 +13,11 @@ horizontal: false
 <div class="projects photos">
 
 <!-- Display photos without categories -->
-  {%- assign sorted_photos = site.photos | sort: "date" -%}
+
   <!-- Generate cards for each photo -->
   <div class="container">
 
-{% for photo in sorted_photos %}
+{% for photo in site.photos %}
     {% cycle 'add row' : '<div class="row">', '', '' %}
 
       {% include photos.html %}
