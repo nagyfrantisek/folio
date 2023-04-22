@@ -3,7 +3,11 @@ layout: page
 title:  "Case"
 date:   2022-07-15 15:00:40
 img: assets/img/thumb/casetraktor.jpg
-category: foo
 ---
 
-![Case](assets/img/casetraktor.jpg)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/casetraktor.jpg" title="Case" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

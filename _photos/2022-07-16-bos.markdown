@@ -1,0 +1,14 @@
+---
+layout: page
+title:  "Bős"
+date:   2022-07-16 12:23:56
+img: assets/thumb/bos.jpg
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/bos.jpg" title="Gabčíkovo–Nagymaros Waterworks" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Gabčíkovo–Nagymaros Waterworks

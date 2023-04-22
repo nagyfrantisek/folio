@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Daru"
+date:   2022-07-16 12:24:02
+img: assets/thumb/daru_bos.jpg
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/daru_bos.jpg" title="Gabčíkovo–Nagymaros Waterworks" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Gabčíkovo–Nagymaros Waterworks

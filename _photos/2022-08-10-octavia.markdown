@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Skoda Octavia"
+date:   2022-08-10 15:46:19
+img: assets/thumb/octavia.jpg
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/octavia.jpg" title="Skoda Octavia" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Skoda Octavia [https://azeszaki.hu/hu](https://azeszaki.hu/hu)

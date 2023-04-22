@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Airbus A320"
+date:   2022-08-10 15:56:34
+img: assets/thumb/G-EUYO.jpg
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/G-EUYO.jpg" title="Airbus A320" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Airbus A320 - G-EUYO - Airline British Airways

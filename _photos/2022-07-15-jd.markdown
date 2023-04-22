@@ -1,0 +1,14 @@
+---
+layout: page
+title:  "JD 9580i"
+date:   2022-07-15 14:49:40
+img: assets/thumb/jd9580iwts.jpg
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/jd9580iwts.jpg" title="John Deere 9580i wts" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+John Deere 9580i wts

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Case IH 6140"
+date:   2015-10-06 15:39:40
+img: assets/thumb/case.jpg
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/case.jpg" title="Case" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Case IH 6140
