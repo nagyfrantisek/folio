@@ -861,3 +861,9 @@ pre {
     opacity: 1;
   }
 }
+
+.photo-thumb {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
