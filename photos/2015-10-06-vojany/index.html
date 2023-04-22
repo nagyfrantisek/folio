@@ -97,7 +97,26 @@
           </header>
 
           <article>
-            <p><img src="assets/img/photo/vojany.jpg" alt="Vojany"></p>
+            <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/folio/assets/img/photo/vojany-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/folio/assets/img/photo/vojany-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/folio/assets/img/photo/vojany-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/folio/assets/img/photo/vojany.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Elektrárne Vojany" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
 
 <p>Vojany Power Station (Elektrárne Vojany)</p>
 
