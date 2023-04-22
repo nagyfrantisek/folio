@@ -3,6 +3,7 @@ layout: page
 title: photo 1
 description: a photo with a background image
 img: assets/img/12.jpg
+category: foo
 ---
 
 Every photo has a beautiful feature showcase page.
