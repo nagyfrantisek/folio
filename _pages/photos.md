@@ -16,10 +16,14 @@ horizontal: false
   {%- assign sorted_photos = site.photos | sort: "importance" -%}
   <!-- Generate cards for each photo -->
   <div class="container">
-  <div class="row">
-    {%- for photo in sorted_photos -%}
+
+{% for photo in sorted_photos %}
+    {% cycle 'add row' : '<div class="row">', '', '' %}
+
       {% include photos.html %}
-    {%- endfor %}
-  </div>
+
+{% cycle 'end row' : '', '', '</div>' %}
+{% endfor %}
+
 
 </div>
