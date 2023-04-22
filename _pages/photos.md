@@ -17,7 +17,7 @@ horizontal: false
   <!-- Generate cards for each photo -->
   <div class="container">
   <div class="row row-cols-3">
-    {%- for photo in sorted_photos -%}
+    {%- for photo in sorted_photos reversed -%}
       {% include photos.html %}
     {%- endfor %}
   </div>
