@@ -6,7 +6,7 @@
     {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
       <source 
-        class="responsive-img-srcset photo-thumb"
+        class="responsive-img-srcset img-fluid rounded z-depth-1"
         media="(max-width: {{ i }}px)" 
         srcset="{{ img_path | relative_url }}-{{ i }}.webp"
       />
@@ -14,7 +14,7 @@
     {% endif %}
 
     <!-- Fallback to the original file -->
-    <img class="photo-thumb"
+    <img class="img-fluid rounded z-depth-1"
       src="{{ include.path | relative_url }}"
       {% if include.class %}class="{{ include.class }}"{% endif %}  
       {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 
