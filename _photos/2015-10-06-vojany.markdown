@@ -2,6 +2,7 @@
 layout: page
 title: Vojany
 img: assets/img/thumb/vojany.jpg
+date: 2015-10-06 21:04:40
 description: Vojany Power Station (Elektrárne Vojany)
 ---
 

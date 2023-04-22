@@ -4,6 +4,7 @@ title: photo 1
 description: a photo with a background image
 img: assets/img/12-1.jpg
 category: foo
+date: 2023-04-06 21:04:40
 ---
 
 Every photo has a beautiful feature showcase page.
