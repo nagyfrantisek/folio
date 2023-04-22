@@ -43,7 +43,7 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for photo in sorted_photos -%}
-      {% include photos_horizontal.html %}
+      {% include photos.html %}
     {%- endfor %}
     </div>
   </div>
