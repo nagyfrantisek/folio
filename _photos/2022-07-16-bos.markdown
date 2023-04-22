@@ -2,7 +2,7 @@
 layout: page
 title:  "Bős"
 date:   2022-07-16 12:23:56
-img: assets/thumb/bos.jpg
+img: assets/img/thumb/bos.jpg
 ---
 
 <div class="row">

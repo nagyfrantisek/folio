@@ -2,7 +2,7 @@
 layout: post
 title:  "Audi"
 date:   2022-08-10 15:46:44
-img: assets/thumb/audi.jpg
+img: assets/img/thumb/audi.jpg
 ---
 
 <div class="row">

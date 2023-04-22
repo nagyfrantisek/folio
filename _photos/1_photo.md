@@ -2,7 +2,7 @@
 layout: page
 title: photo 1
 description: a photo with a background image
-img: assets/img/12.jpg
+img: assets/img/12-1.jpg
 category: foo
 ---
 

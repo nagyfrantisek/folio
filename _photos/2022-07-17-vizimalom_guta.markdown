@@ -2,7 +2,7 @@
 layout: post
 title:  "Fahíd - Gúta"
 date:   2022-07-17 14:39:40
-img: assets/thumb/vizimalom_guta.jpg
+img: assets/img/thumb/vizimalom_guta.jpg
 ---
 
 <div class="row">

@@ -2,7 +2,7 @@
 layout: post
 title:  "Skoda Octavia"
 date:   2022-08-10 15:46:19
-img: assets/thumb/octavia.jpg
+img: assets/img/thumb/octavia.jpg
 ---
 
 <div class="row">

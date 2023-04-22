@@ -2,7 +2,7 @@
 layout: page
 title:  "JD 9580i"
 date:   2022-07-15 14:49:40
-img: assets/thumb/jd9580iwts.jpg
+img: assets/img/thumb/jd9580iwts.jpg
 ---
 
 <div class="row">

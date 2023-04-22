@@ -2,7 +2,7 @@
 layout: post
 title:  "Airbus A320"
 date:   2022-08-10 15:56:34
-img: assets/thumb/G-EUYO.jpg
+img: assets/img/thumb/G-EUYO.jpg
 ---
 
 <div class="row">

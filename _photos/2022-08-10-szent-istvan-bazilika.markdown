@@ -2,7 +2,7 @@
 layout: post
 title:  "Szent István Bazilika"
 date:   2022-08-10 17:32:49
-img: assets/thumb/sz_i_b.jpg
+img: assets/img/thumb/sz_i_b.jpg
 ---
 
 <div class="row">

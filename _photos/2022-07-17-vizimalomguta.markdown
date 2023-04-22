@@ -2,7 +2,7 @@
 layout: post
 title:  "Vízimalom - Gúta"
 date:   2022-07-17 12:48:28
-img: assets/thumb/vizimalomguta.jpg
+img: assets/img/thumb/vizimalomguta.jpg
 ---
 
 <div class="row">
