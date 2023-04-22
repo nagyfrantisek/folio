@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2022 | Frantisek  Nagy</title>
+    <title>Prusaslicer Ender-3 V2 g-code | Frantisek  Nagy</title>
     <meta name="author" content="Frantisek  Nagy">
-    <meta name="description" content="If you have the right attitude, interesting problems will find you.
-">
+    <meta name="description" content="Start/End g-code for Ender-3 V2">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/folio/assets/css/main.css">
-    <link rel="canonical" href="https://n4.sk/folio/blog/2022/">
+    <link rel="canonical" href="https://n4.sk/folio/blog/2022/prusaslicer-ender3v2-config/">
     
     <!-- Dark Mode -->
     
@@ -89,84 +88,62 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2022 </h1>
-    <p class="post-description"> an archive of posts from this year </p>
+    <h1 class="post-title">Prusaslicer Ender-3 V2 g-code</h1>
+    <p class="post-meta">October 24, 2022</p>
+    <p class="post-tags">
+      <a href="/folio/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+        ·  
+        <a href="/folio/blog/tag/3dprinting">
+          <i class="fas fa-hashtag fa-sm"></i> 3dprinting</a>  
+          <a href="/folio/blog/tag/ender">
+          <i class="fas fa-hashtag fa-sm"></i> ender</a>  
+          
+        ·  
+        <a href="/folio/blog/category/blog">
+          <i class="fas fa-tag fa-sm"></i> blog</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Nov 4, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/4lll/">Rubik kocka 4LLL tutorial</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 25, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/microbit-alapok/">Micro:bit alapok - Python</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 25, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/szokozok-csereje/">Szóközök cseréje</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 24, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/prusaslicer-ender3v2-config/">Prusaslicer Ender-3 V2 g-code</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 23, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/mid-click-by-three-finger-in-windows10/">Mid-click by three finger in Windows 10</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 22, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/shutdown-reboot-dbus-senddel/">Shutdown/reboot dbus-senddel</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 19, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/office-2021-download-link/">Microsoft Office 2021 direkt linkek</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 18, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/office-2021-newui/">Microsoft Office 2021 új felhasználói felület</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 13, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/fajlnevek-kisbetusse-alakitasa/">Fájlnevek kisbetűssé alakítása</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content">
+    <h2 id="start-g-code">Start g-code:</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>G90 ; use absolute coordinates
+M83 ; extruder relative mode
+M104 S[first_layer_temperature] ; set extruder temp
+M140 S[first_layer_bed_temperature] ; set bed temp
+M190 S[first_layer_bed_temperature] ; wait for bed temp
+M109 S[first_layer_temperature] ; wait for extruder temp
+G28 ; home all
+M420 S1 Z2 ; Enable ABL using saved Mesh and Fade Height
+;G29 ; ABL
+G1 Z2 F240
+G1 X3 Y10 F3000
+G1 Z0.28 F240
+G92 E0
+G1 Y190 E15 F1500 ; intro line
+G1 X3.3 F5000
+G92 E0
+G1 Y10 E15 F1200 ; intro line
+G92 E0
+</code></pre></div></div>
 
+<h2 id="end-g-code">End g-code:</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{if max_layer_z &lt; max_print_height}G1 Z{z_offset+min(max_layer_z+2, max_print_height)} F600 ; Move print head up{endif}
+G1 X5 Y{print_bed_max[1]*0.8} F{travel_speed*60} ; present print
+{if max_layer_z &lt; max_print_height-10}G1 Z{z_offset+min(max_layer_z+10, max_print_height-10)} F600 ; Move print head further up{endif}
+M140 S0 ; turn off heatbed
+M104 S0 ; turn off temperature
+M107 ; turn off fan
+M84 X Y E ; disable motors
+</code></pre></div></div>
+
+  </article>
 </div>
 
     </div>

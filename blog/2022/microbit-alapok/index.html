@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2022 | Frantisek  Nagy</title>
+    <title>Micro:bit alapok - Python | Frantisek  Nagy</title>
     <meta name="author" content="Frantisek  Nagy">
-    <meta name="description" content="If you have the right attitude, interesting problems will find you.
-">
+    <meta name="description" content="Micro:bit alapok - Python">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/folio/assets/css/main.css">
-    <link rel="canonical" href="https://n4.sk/folio/blog/2022/">
+    <link rel="canonical" href="https://n4.sk/folio/blog/2022/microbit-alapok/">
     
     <!-- Dark Mode -->
     
@@ -89,84 +88,44 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2022 </h1>
-    <p class="post-description"> an archive of posts from this year </p>
+    <h1 class="post-title">Micro:bit alapok - Python</h1>
+    <p class="post-meta">October 25, 2022</p>
+    <p class="post-tags">
+      <a href="/folio/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+        ·  
+        <a href="/folio/blog/tag/microbit">
+          <i class="fas fa-hashtag fa-sm"></i> microbit</a>  
+          <a href="/folio/blog/tag/python">
+          <i class="fas fa-hashtag fa-sm"></i> python</a>  
+          
+        ·  
+        <a href="/folio/blog/category/blog">
+          <i class="fas fa-tag fa-sm"></i> blog</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Nov 4, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/4lll/">Rubik kocka 4LLL tutorial</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 25, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/microbit-alapok/">Micro:bit alapok - Python</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 25, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/szokozok-csereje/">Szóközök cseréje</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 24, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/prusaslicer-ender3v2-config/">Prusaslicer Ender-3 V2 g-code</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 23, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/mid-click-by-three-finger-in-windows10/">Mid-click by three finger in Windows 10</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 22, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/shutdown-reboot-dbus-senddel/">Shutdown/reboot dbus-senddel</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 19, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/office-2021-download-link/">Microsoft Office 2021 direkt linkek</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 18, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/office-2021-newui/">Microsoft Office 2021 új felhasználói felület</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 13, 2022</th>
-          <td>
-              <a class="post-link" href="/folio/blog/2022/fajlnevek-kisbetusse-alakitasa/">Fájlnevek kisbetűssé alakítása</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content">
+    <p>A <a href="https://python.microbit.org" rel="external nofollow noopener" target="_blank">python.microbit.org</a> oldalon elérhető micro:bit Python Editor kifejezetten a szövegalapú kódolásban járatlanok számára készült.</p>
 
+<h2 id="hello-world">Hello World!</h2>
+
+<p>Egy új nyelven való programozás hagyományos módja az, hogy a számítógép azt mondja: “Hello, World!”.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">microbit</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1">#egyszerű scrollozó szöveg kiírása
+</span><span class="n">display</span><span class="p">.</span><span class="nf">scroll</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+</code></pre></div></div>
+<p><img src="/assets/images/microbit/helloworld.gif" alt="Hello World"></p>
+
+  </article>
 </div>
 
     </div>
