@@ -2,10 +2,9 @@
 layout: page
 title: photos
 permalink: /photos/
-description: A growing collection of your cool photos.
+description:
 nav: true
 nav_order: 2
-display_categories: [work, fun]
 horizontal: false
 ---
 
