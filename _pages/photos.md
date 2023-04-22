@@ -27,7 +27,7 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="row">
     {%- for photo in sorted_photos -%}
       {% include photos.html %}
     {%- endfor %}
@@ -48,7 +48,7 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="row">
     {%- for photo in sorted_photos -%}
       {% include photos.html %}
     {%- endfor %}
