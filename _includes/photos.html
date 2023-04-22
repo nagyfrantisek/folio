@@ -1,14 +1,15 @@
 <!-- _includes/photos.html -->
 <div class="grid-sizer"></div>
-<div class="grid-item">
+<div class="row">
   {% if photo.redirect -%}
+  <div class="col-sm mt-3 mt-md-0">
   <a href="{{ photo.redirect }}">
     {%- else -%}
+    <div class="col-sm mt-3 mt-md-0">
     <a href="{{ photo.url | relative_url }}">
       {%- endif %}
-      <div class="card hoverable">
         {%- if photo.img %}
-        {%- include photo_figure.html
+        {%- include zfigure.html
           path=photo.img
           alt="photo thumbnail" -%}
         {%- endif %}
