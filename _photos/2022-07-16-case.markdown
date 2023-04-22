@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Case IH 6140"
-date:   2015-10-06 15:39:40
+date:   2022-07-16 16:39:40
 img: assets/img/thumb/case.jpg
 ---
 

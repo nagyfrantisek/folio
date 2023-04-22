@@ -7,9 +7,11 @@ categories: wallpaper
 description: Circles iPhone wallpaper
 ---
 
-## Circles iPhone wallpaper
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/circles_wallpaper.png" title="Circles" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
-![Circles](assets/img/circles_wallpaper.png)
-
-[Download](assets/img/circles_wallpaper.zip)
+[Download](/assets/img/circles_wallpaper.zip)
 
