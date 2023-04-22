@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://n4.sk/folio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://n4.sk/folio/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-22T13:27:25+00:00</updated><id>https://n4.sk/folio/feed.xml</id><title type="html">blank</title><subtitle>If you have the right attitude, interesting problems will find you.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://n4.sk/folio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://n4.sk/folio/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-22T13:39:00+00:00</updated><id>https://n4.sk/folio/feed.xml</id><title type="html">blank</title><subtitle>If you have the right attitude, interesting problems will find you.
 </subtitle><entry><title type="html">Circles iPhone wallpaper</title><link href="https://n4.sk/folio/blog/2023/circles-iphone-wallpaper/" rel="alternate" type="text/html" title="Circles iPhone wallpaper" /><published>2023-04-08T17:35:00+00:00</published><updated>2023-04-08T17:35:00+00:00</updated><id>https://n4.sk/folio/blog/2023/circles-iphone-wallpaper</id><content type="html" xml:base="https://n4.sk/folio/blog/2023/circles-iphone-wallpaper/"><![CDATA[<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
@@ -45,7 +45,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/bar.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Bar" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/bar.png" class="img-fluid" width="auto" height="auto" title="Bar" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -65,7 +65,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/dot.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Dot" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/dot.png" class="img-fluid" width="auto" height="auto" title="Dot" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -88,7 +88,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/L.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="L" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/L.png" class="img-fluid" width="auto" height="auto" title="L" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -113,7 +113,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/sune.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Sune" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/sune.png" class="img-fluid" width="auto" height="auto" title="Sune" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -133,7 +133,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/antisune.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Anti-Sune" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/antisune.png" class="img-fluid" width="auto" height="auto" title="Anti-Sune" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -156,7 +156,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/bowtie.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Bar" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/bowtie.png" class="img-fluid" width="auto" height="auto" title="Bar" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -176,7 +176,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/H.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="H" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/H.png" class="img-fluid" width="auto" height="auto" title="H" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -199,7 +199,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/Pi.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Pi" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/Pi.png" class="img-fluid" width="auto" height="auto" title="Pi" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -219,7 +219,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/T.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="T" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/T.png" class="img-fluid" width="auto" height="auto" title="T" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -242,7 +242,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/U.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="U" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/U.png" class="img-fluid" width="auto" height="auto" title="U" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -267,7 +267,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/headlight.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Headlight" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/headlight.png" class="img-fluid" width="auto" height="auto" title="Headlight" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -292,7 +292,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/Ua_perm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ua perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/Ua_perm.png" class="img-fluid" width="auto" height="auto" title="Ua perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -312,7 +312,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/Ub_perm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ub perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/Ub_perm.png" class="img-fluid" width="auto" height="auto" title="Ub perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -335,7 +335,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/H_perm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="H perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/H_perm.png" class="img-fluid" width="auto" height="auto" title="H perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -355,7 +355,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/folio/assets/img/kocka/Z_perm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Z perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/folio/assets/img/kocka/Z_perm.png" class="img-fluid" width="auto" height="auto" title="Z perm" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
